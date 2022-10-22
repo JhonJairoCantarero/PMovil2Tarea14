@@ -7,8 +7,10 @@
         <Image x:Name="Foto" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue" />
         <Button x:Name="btnfoto" Text="Agregar foto" Clicked="btnfoto_Clicked" Margin="10,0,10,0" TextColor="Black"/>
 
+        <Label Text="Nombre:" FontSize="16" TextColor="Black" Margin="5,0,5,0"/>
+        <Entry x:Name="txtnombre" Placeholder="Ingrese Un Nombre A La Foto" Keyboard="Text" Margin="10,0,10,0" TextColor="Black" FontSize="16"/>
         <Label Text="Descripcion:" FontSize="16" TextColor="Black" Margin="5,0,5,0"/>
-        <Entry x:Name="txtdescripcion" Placeholder="Ingrese una descripcion" Keyboard="Text" Margin="10,0,10,0" TextColor="Black" FontSize="16"/>
+        <Entry x:Name="txtdescripcion" Placeholder="Ingrese Una Descripcion" Keyboard="Text" Margin="10,0,10,0" TextColor="Black" FontSize="16"/>
         <!--Botones-->
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
             <Button x:Name="btnagregar" Text="Agregar" Clicked="btnagregar_Clicked" Margin="10,0,10,0" TextColor="Black"/>

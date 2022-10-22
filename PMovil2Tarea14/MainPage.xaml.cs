@@ -86,6 +86,7 @@ namespace PMovil2Tarea14
                 var site = new Sites
                 {
                     id = 0,
+                    nombre = txtnombre.Text,
                     descripcion = txtdescripcion.Text,
                     foto = ConvertImageToByteArray()
                 };
@@ -134,6 +135,7 @@ namespace PMovil2Tarea14
         private void LimpiarTxt()
         {
             Foto.Source = null;
+            txtnombre.Text = "";
             txtdescripcion.Text = "";
         }
     }

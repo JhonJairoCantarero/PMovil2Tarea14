@@ -11,7 +11,8 @@
     </ContentPage.Resources>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Eliminar sitio" x:Name="tbiEliminar"
+        
+        <ToolbarItem Text="Eliminar" x:Name="tbiEliminar"
                      Order="Primary"
                      Priority="0"
                      Clicked="btneliminar_Clicked" />
@@ -21,8 +22,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="{Binding id}" IsVisible="false" x:Name="txtid"/>
-            <Label Text="{Binding latitud}" IsVisible="false" x:Name="txtlatitud"/>
-            <Label Text="{Binding longitud}" IsVisible="false" x:Name="txtlongitud"/>
+            <Label Text="{Binding nombre}" x:Name="txtnombre" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
             <Label Text="{Binding descripcion}" x:Name="txtdescripcion" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
             <Image x:Name="imageSite" Source="{Binding foto, Converter={StaticResource ByteToImage}}" HeightRequest="400" WidthRequest="400"/>
 

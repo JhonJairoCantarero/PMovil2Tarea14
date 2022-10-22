@@ -8,6 +8,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using PM2E144;
+using PMovil2Tarea14;
+
 
 namespace PMovil2Tarea14
 {
